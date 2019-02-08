@@ -1,0 +1,27 @@
+body{
+  margin: 0px;
+  background: black;
+}
+
+header{
+  height: auto;
+  overflow: hidden;
+}
+#background{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-cover: cover;
+}
+#content{
+  position: absolute;
+  top: 20px;
+  padding: 30px;
+  color: #fff;
+  text-shadow: #000 2px 2px 2px;
+  font-family: Arial;
+}
